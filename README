@@ -1,0 +1,3 @@
+This is my personal bash profile. 
+history.sh is from oh-my-bash: https://github.com/ohmybash/oh-my-bash
+git-prompt.sh and git-completion.sh are from git repository: https://github.com/git/git/tree/master/contrib/completion
