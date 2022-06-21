@@ -1,5 +1,5 @@
 # My bash custom
-source $HOME/.mybash-profile/aliases.sh
-source $HOME/.mybash-profile/prompt.sh
-source $HOME/.mybash-profile/history.sh
-source $HOME/.mybash-profile/completion.sh
+source $HOME/.my-bash-profile/aliases.sh
+source $HOME/.my-bash-profile/prompt.sh
+source $HOME/.my-bash-profile/history.sh
+source $HOME/.my-bash-profile/completion.sh

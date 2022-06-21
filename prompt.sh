@@ -1,5 +1,5 @@
 #Git prompt setting
-source $HOME/.mybash-profile/git-prompt.sh
+source $HOME/.my-bash-profile/git-prompt.sh
 GIT_PS1_STATESEPARATOR=" "
 GIT_PS1_SHOWUPSTREAM="auto"     # '<' behind, '>' ahead, '<>' diverged, '=' no difference
 GIT_PS1_SHOWDIRTYSTATE=1        # staged '+', unstaged '*'
@@ -7,7 +7,7 @@ GIT_PS1_SHOWSTASHSTATE=1        # '$' something is stashed
 GIT_PS1_SHOWUNTRACKEDFILES=1    # '%' untracked files
 
 # Git completion setting
-source $HOME/.mybash-profile/git-completion.sh
+source $HOME/.my-bash-profile/git-completion.sh
 
 # Colors
 RED='[1;31m'
