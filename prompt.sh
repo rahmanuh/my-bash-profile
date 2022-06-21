@@ -19,6 +19,8 @@ CYAN='[1;36m'
 WHITE='[1;37m'
 NO_COLOR="\[\033[00m\]"
 
+PROMPT_COMMAND='echo -en "\033]0; $(pwd) \a"'
+
 if [ $(id -u) -eq 0 ];
 then # as root
 	PS1="\u@\h \w\n# "
