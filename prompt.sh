@@ -25,6 +25,6 @@ if [ $(id -u) -eq 0 ];
 then # as root
 	PS1="\u@\h \w\n# "
 else # normal
-	PS1='\e${GREEN}\u@\h \e${CYAN}\w \[\033[00m\]$(__git_ps1 "(%s)")\n$ '
+	PS1='\e${GREEN}\u@\h \e${CYAN}\w \[\033[00m\]$(__git_ps1 "(%s)")\e${CYAN}\n$ \[\033[00m\]'
 fi
 
