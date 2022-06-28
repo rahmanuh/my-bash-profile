@@ -20,6 +20,7 @@ WHITE='[1;37m'
 NO_COLOR="\[\033[00m\]"
 
 PROMPT_COMMAND='echo -en "\033]0; $(pwd) \a"'
+source /etc/profile.d/vte.sh
 
 if [ $(id -u) -eq 0 ];
 then # as root
