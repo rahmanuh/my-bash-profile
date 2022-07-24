@@ -1,3 +1,11 @@
 This is my personal bash profile. 
 history.sh is from oh-my-bash: https://github.com/ohmybash/oh-my-bash
 git-prompt.sh and git-completion.sh are from git repository: https://github.com/git/git/tree/master/contrib/completion
+
+Usage:
+- Clone repo
+`git clone https://github.com/rahmanuh/my-bash-profile.git .my-bash-profile`
+- Source the 'main' file to .bashrc
+`source $HOME/.my-bash-profile/my-bash-profile.sh`
+- Reload current terminal
+`source .bashrc`
