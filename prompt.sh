@@ -19,12 +19,12 @@ CYAN='[1;36m'
 WHITE='[1;37m'
 NO_COLOR="\[\033[00m\]"
 
-PROMPT_COMMAND='echo -en "\033]0; $(pwd) \a"'
+#PROMPT_COMMAND='echo -en "\033]0; $(pwd) \a"'
 
 if [ $(id -u) -eq 0 ];
 then # as root
 	PS1="\u@\h \w\n# "
 else # normal
-	PS1='\e${GREEN}\u@\h \e${CYAN}\w \[\033[00m\]$(__git_ps1 "(%s)")\n$ '
+	PS1='\e${GREEN}\u \e${CYAN}\w \[\033[00m\]$(__git_ps1 "(%s)")\n$ '
 fi
 
